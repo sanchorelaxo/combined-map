@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rothschild & Epstein Network Map</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+        }
+        #canvas-container {
+            height: 70vh;
+            position: relative;
+        }
+        #notes-panel {
+            height: 30vh;
+            background: #1a1a1a;
+            border-top: 2px solid #333;
+            padding: 20px;
+            overflow-y: auto;
+            color: white;
+            position: relative;
+        }
+        #headshot-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 200px;
+            max-height: 250px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 2px solid #d4af37;
+            border-radius: 8px;
+            padding: 10px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        .headshot-img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            border: 1px solid #666;
+            cursor: pointer;
+            transition: opacity 0.2s;
+            display: block;
+            object-fit: contain;
+        }
+        .headshot-img:hover {
+            opacity: 0.8;
+        }
+        .headshot-caption {
+            font-size: 0.7em;
+            color: #aaa;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        #image-modal {
+            display: none;
+            position: fixed;
+            z-index: 10000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            justify-content: center;
+            align-items: center;
+        }
+        #image-modal.active {
+            display: flex;
+        }
+        #modal-image {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 0 50px rgba(212, 175, 55, 0.5);
+        }
+        #image-modal-close {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        #image-modal-close:hover {
+            color: #d4af37;
+        }
+        #notes-content {
+            margin-right: 220px;
+        }
+        #notes-panel h2 {
+            margin: 0 0 10px 0;
+            color: #d4af37;
+        }
+        #notes-panel p {
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+        #notes-panel .connection {
+            background: rgba(212, 175, 55, 0.2);
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border-left: 3px solid #d4af37;
+        }
+        #notes-panel .connection .node-link {
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        #notes-panel .connection .node-link:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        #tooltip {
+            position: absolute;
+            padding: 10px;
+            background: rgba(0,0,0,0.9);
+            color: white;
+            border-radius: 5px;
+            pointer-events: none;
+            display: none;
+            z-index: 1000;
+            font-size: 14px;
+            max-width: 200px;
+            border: 1px solid #d4af37;
+        }
+        .relationship-label {
+            color: #d4af37;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 4px 8px;
+            background: rgba(0, 0, 0, 0.85);
+            border-radius: 4px;
+            border: 1px solid #d4af37;
+            white-space: nowrap;
+            pointer-events: none;
+            text-align: center;
+            display: none;
+        }
+        #controls {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.8);
+            padding: 8px;
+            border-radius: 6px;
+            color: white;
+            display: flex;
+            gap: 8px;
+        }
+        button {
+            background: #d4af37;
+            border: none;
+            color: #000;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.75em;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        button:hover {
+            background: #f4cf57;
+        }
+    </style>
+</head>
+<body>
+    <div id="canvas-container">
+        <div id="controls">
+            <button onclick="resetCamera()">Reset View</button>
+            <button onclick="toggleRotation()">Toggle Rotation</button>
+        </div>
+
+                <div id="legend-panel" style="position: absolute; top: 20px; right: 20px; background: rgba(0,0,0,0.85); border: 1px solid #444; border-radius: 8px; padding: 15px; color: white; font-size: 12px; max-width: 260px; z-index: 1000;">
+            <h3 style="margin: 0 0 10px 0; text-align: center; color: #d4af37; border-bottom: 1px solid #444; padding-bottom: 5px;">Network Legend</h3>
+            
+            <div style="margin-bottom: 15px;">
+                <strong style="color: #d4af37;">Rothschild Genealogy</strong><br>
+                <span style="display:inline-block; width:12px; height:12px; background:#d4af37; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Gen 1 (Founder)<br>
+                <span style="display:inline-block; width:12px; height:12px; background:#c0c0c0; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Gen 2 (Five Sons)<br>
+                <span style="display:inline-block; width:12px; height:12px; background:#cd7f32; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Gen 3<br>
+                <span style="display:inline-block; width:12px; height:12px; background:#8a2be2; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Gen 4<br>
+                <span style="display:inline-block; width:12px; height:12px; background:#00ced1; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Gen 5+<br>
+                <span style="display:inline-block; width:20px; height:3px; background:#ff6b6b; vertical-align:middle; margin-right:5px;"></span> Intermarriage
+            </div>
+            
+            <div>
+                <strong style="color: #4c6ef5;">Epstein Network</strong><br>
+                <span style="display:inline-block; width:12px; height:12px; background:#ff6b6b; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Crime<br>
+                <span style="display:inline-block; width:12px; height:12px; background:#4c6ef5; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Intelligence<br>
+                <span style="display:inline-block; width:12px; height:12px; background:#51cf66; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Financial<br>
+                <span style="display:inline-block; width:12px; height:12px; background:#ffd43b; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Modern/Business<br>
+                <span style="display:inline-block; width:12px; height:12px; background:#ff8787; border-radius:50%; vertical-align:middle; margin-right:5px;"></span> Political<br>
+                <span style="display:inline-block; width:20px; height:4px; background:#ff00ff; vertical-align:middle; margin-right:5px;"></span> Cross-Network Link
+            </div>
+        </div>
+
+        <div id="tooltip"></div></div>
+    </div>
+
+    <div id="notes-panel">
+        <div id="headshot-container" style="display: none;"></div>
+        <div id="notes-content">
+            <h2>Node Information</h2>
+            <p>Click on a node to see detailed information and connections. Click empty space to deselect.</p>
+        </div>
+    </div>
+
+    <div id="image-modal" onclick="closeImageModal()">
+        <span id="image-modal-close">&times;</span>
+        <img id="modal-image" src="" alt="" onclick="event.stopPropagation()">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/renderers/CSS2DRenderer.js"></script>
+    
+    <script>
+        // Scene setup
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x0a0a0a);
+        scene.fog = new THREE.Fog(0x0a0a0a, 200, 600);
+
+        const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.set(150, 50, 350);
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        const container = document.getElementById('canvas-container');
+        renderer.setSize(window.innerWidth, window.innerHeight * 0.7);
+        container.appendChild(renderer.domElement);
+
+        const labelRenderer = new THREE.CSS2DRenderer();
+        labelRenderer.setSize(window.innerWidth, window.innerHeight * 0.7);
+        labelRenderer.domElement.style.position = 'absolute';
+        labelRenderer.domElement.style.top = '0';
+        labelRenderer.domElement.style.pointerEvents = 'none';
+        container.appendChild(labelRenderer.domElement);
+
+        const controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.05;
+        controls.target.set(150, 0, 0);
+
+        // Colors
+        const colors = {
+            founder: 0xd4af37,
+            gen2: 0x4c6ef5,
+            gen3: 0x51cf66,
+            gen4: 0xff8787,
+            gen5: 0xa9e34b,
+            gen6: 0x339af0,
+            gen7: 0x339af0,
+            intermarriage: 0xff6b6b
+        };
+
+        // Data will be loaded from data.json
+        let nodes = [];
+        let links = [];
+        let epsteinNodes = [];
+        let epsteinLinks = [];
+        let headshotImages = {};
+        
+        // Global arrays for the map
+        let allNodes = [];
+        let allLinks = [];
+        let nodeMap = {};
+
+        // Animation Loop (defined at top level so it can be called anywhere)
+        function animate() {
+            requestAnimationFrame(animate);
+            if (typeof controls !== 'undefined') controls.update();
+            if (typeof renderer !== 'undefined') renderer.render(scene, camera);
+            if (typeof labelRenderer !== 'undefined') labelRenderer.render(scene, camera);
+        }
+
+        // Load data and initialize the map
+        fetch('data.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.json();
+            })
+            .then(data => {
+                nodes = data.nodes || [];
+                links = data.links || [];
+                epsteinNodes = data.epsteinNodes || [];
+                epsteinLinks = data.epsteinLinks || [];
+                headshotImages = data.headshotImages || {};
+                
+                initializeMap();
+            })
+            .catch(error => {
+                console.error('Failed to load map data:', error);
+            });
+
+        function initializeMap() {
+            // Combine all nodes and links
+            allNodes = [...nodes, ...epsteinNodes];
+            allLinks = [...links, ...epsteinLinks];
+            
+            // Build node map for quick lookups
+            allNodes.forEach(n => nodeMap[n.id] = n);
+
+            // Create 3D Objects
+        const nodeObjects = [];
+        const lineObjects = [];
+        const labelObjects = [];
+
+        // Node Geometry
+        const sphereGeometry = new THREE.SphereGeometry(3, 32, 32);
+        
+        allNodes.forEach(node => {
+    let color;
+    // Rothschild nodes have gen > 0, Epstein nodes have gen === 0 and epstein_type
+    if (node.gen > 0) {
+        color = colors[`gen${Math.min(node.gen, 5)}`] || colors.gen5;
+    } else if (node.epstein_type) {
+        // Use Epstein color scheme
+        const epsteinColors = {
+            crime: 0xff6b6b,
+            intelligence: 0x4c6ef5,
+            financial: 0x51cf66,
+            modern: 0xffd43b,
+            political: 0xff8787
+        };
+        color = epsteinColors[node.epstein_type] || 0xffffff;
+    } else {
+        color = 0xffffff; // Fallback
+    }
+    
+    const material = new THREE.MeshPhongMaterial({ 
+        color: color, 
+        emissive: color,
+        emissiveIntensity: 0.2,
+        shininess: 100
+    });
+    
+    const mesh = new THREE.Mesh(sphereGeometry, material);
+    mesh.position.set(node.x, node.y, node.z);
+    mesh.userData = node;
+    scene.add(mesh);
+    nodeObjects.push(mesh);
+
+    // Add label
+    const div = document.createElement('div');
+    div.className = 'relationship-label';
+    div.textContent = node.name;
+    div.style.display = 'block';
+    const label = new THREE.CSS2DObject(div);
+    label.position.set(0, 5, 0);
+    mesh.add(label);
+    labelObjects.push(label);
+});
+
+        // Create Links
+        allLinks.forEach(link => {
+    const sourceNode = nodeMap[link.source];
+    const targetNode = nodeMap[link.target];
+    
+    if (sourceNode && targetNode) {
+        const points = [];
+        points.push(new THREE.Vector3(sourceNode.x, sourceNode.y, sourceNode.z));
+        points.push(new THREE.Vector3(targetNode.x, targetNode.y, targetNode.z));
+        
+        const geometry = new THREE.BufferGeometry().setFromPoints(points);
+        
+        let lineColor = 0x555555;
+        let lineWidth = 1;
+        
+        if (link.type === 'intermarriage') {
+            lineColor = colors.intermarriage;
+            lineWidth = 3;
+        } else if (link.type === 'cross-connection') {
+            lineColor = 0xff00ff; // Magenta for cross-connections
+            lineWidth = 4;
+        } else if (link.type === 'special') {
+            lineColor = 0xffff00; // Yellow for special Epstein connections
+            lineWidth = 2;
+        }
+        
+        const material = new THREE.LineBasicMaterial({ 
+            color: lineColor,
+            linewidth: lineWidth
+        });
+        
+        const line = new THREE.Line(geometry, material);
+        scene.add(line);
+        lineObjects.push(line);
+
+        // Add relationship label for intermarriages and cross-connections
+        if ((link.type === 'intermarriage' || link.type === 'cross-connection') && link.label) {
+            const midX = (sourceNode.x + targetNode.x) / 2;
+            const midY = (sourceNode.y + targetNode.y) / 2;
+            const midZ = (sourceNode.z + targetNode.z) / 2;
+            
+            const div = document.createElement('div');
+            div.className = 'relationship-label';
+            div.textContent = link.label;
+            div.style.display = 'block';
+            div.style.borderColor = link.type === 'cross-connection' ? '#ff00ff' : '#ff6b6b';
+            div.style.color = link.type === 'cross-connection' ? '#ff00ff' : '#ff6b6b';
+            
+            const label = new THREE.CSS2DObject(div);
+            label.position.set(midX, midY + 2, midZ);
+            scene.add(label);
+            labelObjects.push(label);
+        }
+    }
+});
+
+        // Lighting
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
+        scene.add(ambientLight);
+
+        const pointLight = new THREE.PointLight(0xffffff, 1);
+        pointLight.position.set(50, 150, 100);
+        scene.add(pointLight);
+
+        const pointLight2 = new THREE.PointLight(0xd4af37, 0.5);
+        pointLight2.position.set(-50, 100, -50);
+        scene.add(pointLight2);
+
+        // Interaction
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        let selectedNode = null;
+        let autoRotate = false;
+
+        function onMouseClick(event) {
+            const rect = renderer.domElement.getBoundingClientRect();
+            mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+            mouse.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(nodeObjects);
+
+            if (intersects.length > 0) {
+                const object = intersects[0].object;
+                selectNode(object.userData);
+            } else {
+                deselectNode();
+            }
+        }
+
+        function selectNode(nodeData) {
+            selectedNode = nodeData;
+            
+            // Highlight
+            nodeObjects.forEach(obj => {
+                obj.material.emissiveIntensity = obj.userData.id === nodeData.id ? 0.8 : 0.2;
+                obj.scale.set(obj.userData.id === nodeData.id ? 1.5 : 1, obj.userData.id === nodeData.id ? 1.5 : 1, obj.userData.id === nodeData.id ? 1.5 : 1);
+            });
+
+            // Update notes panel
+            const notesContent = document.getElementById('notes-content');
+            const headshotContainer = document.getElementById('headshot-container');
+            
+            let connectionsHtml = '';
+            allLinks.forEach(link => {
+                if (link.source === nodeData.id || link.target === nodeData.id) {
+                    const otherId = link.source === nodeData.id ? link.target : link.source;
+                    const otherNode = nodeMap[otherId];
+                    
+                    // Skip if the linked node is a placeholder or doesn't exist in the nodes array
+                    if (!otherNode) return;
+                    
+                    let relation = 'Connected to';
+                    let typeLabel = '🔗 Connection';
+                    
+                    if (link.type === 'intermarriage') {
+                        typeLabel = '💍 Intermarriage';
+                        relation = link.source === nodeData.id ? 'Married to' : 'Married to';
+                    } else if (link.type === 'parent-child') {
+                        typeLabel = '👶 Descendant/Ancestor';
+                        relation = link.source === nodeData.id ? 'Parent of' : 'Child of';
+                    } else if (link.type === 'cross-connection') {
+                        typeLabel = '🌐 Cross-Network';
+                        relation = 'Cross-network connection';
+                    } else if (link.type === 'special') {
+                        typeLabel = '⭐ Special';
+                        relation = 'Special connection';
+                    }
+                    
+                    connectionsHtml += `
+                        <div class="connection">
+                            <strong>${typeLabel}:</strong> 
+                            <span class="node-link" onclick="focusNode('${otherId}')">${otherNode.name}</span><br>
+                            <small>${relation}</small>
+                            ${link.note ? `<br><small style="color:#ff00ff">${link.note}</small>` : ''}
+                        </div>
+                    `;
+                }
+            });
+
+            notesContent.innerHTML = `
+                <h2>${nodeData.name}</h2>
+                <p><strong>Generation/Type:</strong> ${nodeData.gen === 0 ? 'Network Node' : (nodeData.gen === 1 ? 'Founder' : nodeData.gen === 2 ? 'The Five Sons' : `Generation ${nodeData.gen}`)}</p>
+                <p><strong>Role/Branch:</strong> ${nodeData.role}</p>
+                <p>${nodeData.notes}</p>
+                <h3 style="margin-top: 15px; color: #d4af37;">Family Connections</h3>
+                ${connectionsHtml || '<p>No direct connections mapped.</p>'}
+            `;
+            
+            headshotContainer.style.display = 'block';
+            let imgUrl = headshotImages[nodeData.id] || headshotImages[nodeData.name] || 'placeholder.jpg';
+            // Check if it's an external URL or already has the images/ prefix
+            const isExternal = imgUrl.startsWith('http://') || imgUrl.startsWith('https://');
+            const hasImagesPrefix = imgUrl.startsWith('images/');
+            const finalImgSrc = isExternal ? imgUrl : (hasImagesPrefix ? imgUrl : `images/${imgUrl}`);
+            
+            headshotContainer.innerHTML = `
+                <div class="headshot-caption">${nodeData.name}</div>
+                <img src="${finalImgSrc}" class="headshot-img" alt="${nodeData.name}" onclick="openImageModal(this.src)" onerror="this.style.display='none'">
+            `;
+        }
+
+        function deselectNode() {
+            selectedNode = null;
+            nodeObjects.forEach(obj => {
+                obj.material.emissiveIntensity = 0.2;
+                obj.scale.set(1, 1, 1);
+            });
+            document.getElementById('notes-content').innerHTML = `
+                <h2>Node Information</h2>
+                <p>Click on a node to see detailed information and connections. Click empty space to deselect.</p>
+            `;
+            document.getElementById('headshot-container').style.display = 'none';
+        }
+
+        function focusNode(id) {
+            const node = nodeMap[id];
+            if (node) {
+                // Smooth camera transition could be added here
+                controls.target.set(node.x, node.y, node.z);
+                selectNode(node);
+            }
+        }
+
+        window.focusNode = focusNode;
+
+        container.addEventListener('click', onMouseClick);
+
+        // Modal functions
+        window.openImageModal = function(src) {
+            document.getElementById('modal-image').src = src;
+            document.getElementById('image-modal').classList.add('active');
+        }
+
+        window.closeImageModal = function() {
+            document.getElementById('image-modal').classList.remove('active');
+        }
+
+        window.resetCamera = function() {
+            camera.position.set(150, 50, 350);
+            controls.target.set(150, 0, 0);
+            controls.update();
+        }
+
+        window.toggleRotation = function() {
+            autoRotate = !autoRotate;
+            controls.autoRotate = autoRotate;
+        }
+
+        // Animation Loop
+        function animate() {
+            requestAnimationFrame(animate);
+            controls.update();
+            renderer.render(scene, camera);
+            labelRenderer.render(scene, camera);
+        }
+
+        // Handle Resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / (window.innerHeight * 0.7);
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight * 0.7);
+            labelRenderer.setSize(window.innerWidth, window.innerHeight * 0.7);
+        });
+
+        }
+
+        animate();
+    </script>
+</body>
+</html>

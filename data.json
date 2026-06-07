@@ -1,0 +1,2054 @@
+{
+  "nodes": [
+    {
+      "id": "mayer_amschel",
+      "name": "Mayer Amschel Rothschild",
+      "gen": 1,
+      "y": 100,
+      "x": 0,
+      "z": 0,
+      "role": "Founder of the Dynasty",
+      "notes": "(1744\u20131812) Started as a rare coin dealer in the Frankfurt ghetto. Became a 'court factor' to Wilhelm IX of Hesse. Married Guttle (Gertrude) Schnapper in 1770. Had 10 children (5 sons, 5 daughters). | Source: walls of the Frankfurt ghetto and enabled the Rothschilds to begin their phenomenal, unprecedented and since unmatched economic ascent. Before 1789..."
+    },
+    {
+      "id": "amschel_mayer",
+      "name": "Amschel Mayer Rothschild",
+      "gen": 2,
+      "y": 50,
+      "x": -60,
+      "z": 0,
+      "role": "Frankfurt Branch",
+      "notes": "(1773\u20131855) Eldest son. Married Eva Hanau (1796). Remained in Frankfurt to manage the original house. Died without male heirs, passing the business to his nephews. | Source: Before 1789, Mayer Amschel Rothschild and his family\u2019s lives had been circumscribed by discriminatory legislation. No matter how hard Ma..."
+    },
+    {
+      "id": "salomon_mayer",
+      "name": "Salomon Mayer von Rothschild",
+      "gen": 2,
+      "y": 50,
+      "x": -30,
+      "z": 40,
+      "role": "Vienna Branch",
+      "notes": "(1774\u20131855) Second son. Married Caroline Stern. Established S M von Rothschild in Vienna. Gained intimate access to Prince Metternich. Elevated to Austrian nobility in 1816. | Source: aristocracy and death of marriage of Zionism and Rothschild, Salomon James de (son of James) (1835-64) death of James\u2019s relationship with Rothschil..."
+    },
+    {
+      "id": "nathan_mayer",
+      "name": "Nathan Mayer Rothschild (Gen 2, London Founder)",
+      "gen": 2,
+      "y": 50,
+      "x": 0,
+      "z": 60,
+      "role": "London Branch",
+      "notes": "(1777\u20131836) Third son. Married Hannah Barent Cohen (1806). The most financially astute of the brothers. Established N M Rothschild & Sons in London. | Source: Nathan Mayer ou l\u2018origine des milliards... Nathan Mayer Rothschild established N M Rothschild & Sons in London, becoming the most financially astut..."
+    },
+    {
+      "id": "karl_mayer",
+      "name": "Carl Mayer von Rothschild",
+      "gen": 2,
+      "y": 50,
+      "x": 30,
+      "z": 40,
+      "role": "Naples Branch",
+      "notes": "(1788\u20131855) Fourth son. Married Adelheid Herz (1818). Managed C M de Rothschild & Figli in Naples, crucial for Papal and Italian state finances. | Source: Salomon and Carl established subsidiaries of the Frankfurt house in Vienna and Naples. The five houses formed a unique partnership, acti..."
+    },
+    {
+      "id": "james_mayer",
+      "name": "James Mayer de Rothschild",
+      "gen": 2,
+      "y": 50,
+      "x": 60,
+      "z": 0,
+      "role": "Paris Branch",
+      "notes": "(1792\u20131868) Fifth son. Married his own niece, Betty Salomon de Rothschild (1824). Established de Rothschild Fr\u00e8res in Paris. Acquired Ch\u00e2teau Lafite Rothschild. | Source: Only James was still indefatigable at fifty-six. Longevity, on the other hand, was a family trait: though their father had died aged six..."
+    },
+    {
+      "id": "anselm_salomon",
+      "name": "Anselm Salomon von Rothschild",
+      "gen": 3,
+      "y": 0,
+      "x": -45,
+      "z": 20,
+      "role": "Vienna Branch Head",
+      "notes": "(1803\u20131874) Son of Salomon. Married his first cousin Charlotte von Rothschild (daughter of Nathan) in 1826, exemplifying the family's strategy of endogamy. | Source: Hannah Louise established the Carl von Rothschild Public Library and the Anselm Salomon von Rothschild Foundation for the Promotion of the Arts."
+    },
+    {
+      "id": "charlotte_gen3",
+      "name": "Charlotte von Rothschild (Gen 3, m. Anselm)",
+      "gen": 3,
+      "y": 0,
+      "x": -15,
+      "z": 40,
+      "role": "London/Vienna",
+      "notes": "(1807\u20131859) Daughter of Nathan Mayer. Married her cousin Anselm Salomon von Rothschild in 1826. | Source: Charlotte Rothschild... Flemings and Lazards. INDEX Abdul Aziz, Sultan Abdul Mejid, Sultan Aberdeen, Lord ABN AMRO Acton, Lord Acton, Sir John Addr..."
+    },
+    {
+      "id": "charlotte_carl",
+      "name": "Charlotte de Rothschild (Gen 3, m. Lionel)",
+      "gen": 3,
+      "y": 0,
+      "x": 10,
+      "z": 70,
+      "role": "London/Naples",
+      "notes": "(1819\u20131884) Daughter of Carl Mayer von Rothschild. Married her first cousin Lionel de Rothschild in 1836."
+    },
+    {
+      "id": "charlotte_james",
+      "name": "Charlotte de Rothschild (Gen 3, m. Nathaniel)",
+      "gen": 3,
+      "y": 0,
+      "x": 50,
+      "z": -10,
+      "role": "Paris/London",
+      "notes": "(1825\u20131899) Daughter of James Mayer de Rothschild. Married her first cousin Nathaniel de Rothschild in 1842."
+    },
+    {
+      "id": "lionel",
+      "name": "Lionel de Rothschild",
+      "gen": 3,
+      "y": 0,
+      "x": 0,
+      "z": 80,
+      "role": "London Branch Head",
+      "notes": "(1808\u20131879) Son of Nathan. Married his cousin Charlotte von Rothschild (daughter of Carl) in 1836. Financed the British government's purchase of Suez Canal shares. First practicing Jew to sit in the House of Commons (1858). | Source: Baron Lionel de Rothschild (The Modern Croesus)... Lionel took his seat in the House of Commons, opening the floodgates for Jewish emancipation."
+    },
+    {
+      "id": "anthony",
+      "name": "Sir Anthony de Rothschild",
+      "gen": 3,
+      "y": 0,
+      "x": -20,
+      "z": 80,
+      "role": "London Branch",
+      "notes": "(1810\u20131876) Son of Nathan. Married Louisa Montefiore (1840), niece of Sir Moses Montefiore, forging another strategic family alliance. | Source: Anthony de Rothschild. After his brilliant youth at Harrow and Cambridge, and his distinguished record in the Great War, he had dedicated himself t..."
+    },
+    {
+      "id": "nathaniel_gen3",
+      "name": "Nathaniel de Rothschild (Gen 3, Mouton Branch)",
+      "gen": 3,
+      "y": 0,
+      "x": 20,
+      "z": 80,
+      "role": "London/French Wine Branch",
+      "notes": "(1812\u20131870) Son of Nathan. Married his cousin Charlotte de Rothschild (daughter of James) in 1842. Purchased Ch\u00e2teau Mouton in 1853, establishing the French wine-making branch. | Source: Nathaniel de Rothschild... The floodgates had been opened. Lord Rothschild took his seat, followed in quick succession by David Salomons, Sir Franc..."
+    },
+    {
+      "id": "mayer_carl",
+      "name": "Mayer Carl von Rothschild",
+      "gen": 3,
+      "y": 0,
+      "x": 20,
+      "z": 60,
+      "role": "Naples/Frankfurt Branch",
+      "notes": "(1820\u20131886) Son of Carl. Married his cousin Louise von Rothschild (daughter of Amschel Mayer) in 1842, helping to keep the Frankfurt line alive. | Source: Mayer Carl noticed how \u201cdeeply affected\u201d Amschel had been by the death of his mother. \u201cIt is a great loss to [him] ... & I cannot tell you how many..."
+    },
+    {
+      "id": "wilhelm_carl",
+      "name": "Wilhelm Carl von Rothschild",
+      "gen": 3,
+      "y": 0,
+      "x": 40,
+      "z": 60,
+      "role": "Naples/Frankfurt Branch",
+      "notes": "(1828\u20131901) Son of Carl. Married his cousin Mathilde Hannah von Rothschild (daughter of Anselm Salomon) in 1849. Later moved to Frankfurt. | Source: Amschel brooded on the merits of his twelve nephews, particularly those (principally Carl\u2019s sons Mayer Carl and Wilhelm Carl) who had settled in Fr..."
+    },
+    {
+      "id": "alphonse",
+      "name": "Alphonse James de Rothschild",
+      "gen": 3,
+      "y": 0,
+      "x": 60,
+      "z": 20,
+      "role": "Paris Branch Head",
+      "notes": "(1827\u20131905) Eldest son of James. Married his cousin Leonora von Rothschild (daughter of Lionel) in 1857, continuing the intermarriage tradition. | Source: James would positively welcome his nephew\u2019s withdrawing from the business as it would allow him to increase the involvement of his elder sons Alpho..."
+    },
+    {
+      "id": "gustave",
+      "name": "Gustave de Rothschild",
+      "gen": 3,
+      "y": 0,
+      "x": 80,
+      "z": 0,
+      "role": "Paris Branch",
+      "notes": "(1829\u20131911) Son of James. Married C\u00e9cile Anspach. Managed the family's railway and mining investments."
+    },
+    {
+      "id": "edmond_james",
+      "name": "Edmond James de Rothschild (Gen 3, 'The Benefactor')",
+      "gen": 3,
+      "y": 0,
+      "x": 70,
+      "z": -20,
+      "role": "Paris Branch / Philanthropist",
+      "notes": "(1845\u20131934) Youngest son of James. Married Adelheid von Rothschild (1877). Known as 'the Benefactor,' he heavily funded early Zionist agricultural settlements in Palestine. | Source: Baron Edmond Rothschild backed the settlements of Russian Zionists established at Rison, Zikron and Rosh Pina, without which they would have failed."
+    },
+    {
+      "id": "albert",
+      "name": "Albert Salomon Anselm von Rothschild",
+      "gen": 4,
+      "y": -50,
+      "x": -45,
+      "z": 10,
+      "role": "Vienna Branch Head",
+      "notes": "(1844\u20131911) Son of Anselm Salomon. Married Bettina Caroline de Rothschild (1876). Expanded Austrian industrial investments. Built the Palais Albert Rothschild."
+    },
+    {
+      "id": "ferdinand",
+      "name": "Ferdinand James von Rothschild",
+      "gen": 4,
+      "y": -50,
+      "x": -30,
+      "z": 30,
+      "role": "Vienna/English Branch",
+      "notes": "(1839\u20131898) Son of Anselm Salomon. Married his cousin Evelina Gertrude de Rothschild (1865). Moved to England, built Waddesdon Manor, prominent art collector. | Source: James was furious with the 'Austrian scoundrels,' and accused Becke of having been bribed; Anselm and Ferdinand were 'very much disguste..."
+    },
+    {
+      "id": "nathaniel_gen4",
+      "name": "Nathan Mayer Rothschild, 1st Baron (Gen 4)",
+      "gen": 4,
+      "y": -50,
+      "x": 0,
+      "z": 100,
+      "role": "London Branch Head",
+      "notes": "(1840\u20131915) Son of Lionel. Married Emma Louise von Rothschild (1867). First Jewish peer to take his seat in the House of Lords (1885). | Source: Rothschild, Nathaniel Mayer de (Natty) (son of Lionel) (1840-1915) Anglo-French entente and Anglo-German amity and Anglo-Russian antagonism and ant..."
+    },
+    {
+      "id": "emma_louise",
+      "name": "Emma Louise von Rothschild",
+      "gen": 4,
+      "y": -50,
+      "x": -10,
+      "z": 110,
+      "role": "London Branch",
+      "notes": "(1844\u20131935) Daughter of Mayer Carl von Rothschild. Married her double first cousin, Nathan Mayer Rothschild (1st Baron), in 1867. | Source: When Natty married Emma, after all, he was marrying the daughter of his father\u2019s sister and his mother\u2019s brother. In the eyes of a moder..."
+    },
+    {
+      "id": "alfred",
+      "name": "Alfred de Rothschild",
+      "gen": 4,
+      "y": -50,
+      "x": -20,
+      "z": 100,
+      "role": "London Branch",
+      "notes": "(1842\u20131918) Son of Lionel. Director of the Bank of England, art collector, and host of lavish parties at Halton House. Died without legitimate issue. | Source: Alfred de Rothschild played such an important role in trying to broker an Anglo-German alliance in the years before the outbreak of the First World..."
+    },
+    {
+      "id": "leopold",
+      "name": "Leopold de Rothschild",
+      "gen": 4,
+      "y": -50,
+      "x": 20,
+      "z": 100,
+      "role": "London Branch",
+      "notes": "(1845\u20131917) Son of Lionel. Married Marie Perugia (1881). Philanthropist and racehorse owner. Managed the family's agricultural estates."
+    },
+    {
+      "id": "edouard",
+      "name": "\u00c9douard Alphonse James de Rothschild",
+      "gen": 4,
+      "y": -50,
+      "x": 60,
+      "z": 10,
+      "role": "Paris Branch Head",
+      "notes": "(1868\u20131949) Son of Alphonse. Married Germaine Alice Halphen (1905). Led the French house into the 20th century."
+    },
+    {
+      "id": "beatrice",
+      "name": "B\u00e9atrice Ephrussi de Rothschild",
+      "gen": 4,
+      "y": -50,
+      "x": 80,
+      "z": -10,
+      "role": "Paris Branch / Art Collector",
+      "notes": "(1864\u20131934) Daughter of Alphonse. Married Maurice Ephrussi (1883). Famous art collector who built the Villa Ephrussi de Rothschild on the French Riviera. | Source: Other members of the family in France and England subsequently followed his example in marrying non-Jews, though when Edmond married a C..."
+    },
+    {
+      "id": "maurice",
+      "name": "Maurice de Rothschild",
+      "gen": 4,
+      "y": -50,
+      "x": 70,
+      "z": -30,
+      "role": "Paris Branch",
+      "notes": "(1881\u20131957) Son of Edmond James. Politician and banker, continued his father's support for Zionist causes and French political life."
+    },
+    {
+      "id": "louis",
+      "name": "Louis Nathaniel de Rothschild",
+      "gen": 5,
+      "y": -100,
+      "x": -45,
+      "z": 0,
+      "role": "Vienna Branch",
+      "notes": "(1882\u20131955) Son of Albert. The last head of the Austrian branch. Married Maria de Rothschild (1915). Forced to flee after the 1938 Anschluss, losing vast Austrian assets."
+    },
+    {
+      "id": "charles",
+      "name": "Charles Rothschild",
+      "gen": 5,
+      "y": -100,
+      "x": 10,
+      "z": 110,
+      "role": "London Branch",
+      "notes": "(1877\u20131923) Son of Nathan Mayer (1st Baron). Married R\u00f3zsika Edle von Wertheimstein (1907). Entomologist and banker. Founded the Palestine Exploration Fund. | Source: the old woman was seen descending a dark, narrow staircase, supported by her granddaughter, the Baroness Charles Rothschild, whose carriage was als..."
+    },
+    {
+      "id": "edmund",
+      "name": "Edmund Leopold de Rothschild",
+      "gen": 5,
+      "y": -100,
+      "x": 20,
+      "z": 120,
+      "role": "London Branch",
+      "notes": "(1916\u20132009) Son of Leopold. Served in WWII and later managed the family's private investments and art collections. | Source: Major Edmund de Rothschild led his battery of the 200 (Jewish) Field Regiment\u2014part of the Jewish Infantry Brigade Group formed in November 1944\u2014int..."
+    },
+    {
+      "id": "victor",
+      "name": "Victor Rothschild, 3rd Baron",
+      "gen": 5,
+      "y": -100,
+      "x": 0,
+      "z": 130,
+      "role": "London Branch",
+      "notes": "(1910\u20131990) Son of Charles. Married Barbara Hutchinson (1933). Scientist, intelligence officer (MI5), and advisor to multiple British Prime Ministers. | Source: Biotechnology Investments, a specialist venture capital fund set up under Victor Rothschild\u2019s direction in the early 1980s."
+    },
+    {
+      "id": "edmond_adolphe",
+      "name": "Edmond Adolphe de Rothschild (Gen 5, Geneva Branch)",
+      "gen": 5,
+      "y": -100,
+      "x": 60,
+      "z": 0,
+      "role": "Paris/Geneva Branch",
+      "notes": "(1926\u20131997) Son of Maurice. Led the French banking operations post-WWII, restructured the family's wine and financial holdings, founded modern Edmond de Rothschild Group."
+    },
+    {
+      "id": "guy",
+      "name": "Guy de Rothschild",
+      "gen": 5,
+      "y": -100,
+      "x": 70,
+      "z": 10,
+      "role": "Paris Branch",
+      "notes": "(1909\u20132007) Son of \u00c9douard. Married Alix Schey von Koromla (1937). Banker and racing team owner. Led the French branch through the mid-20th century. | Source: in 1968 Guy de Rothschild became a partner at N. M. Rothschild, while Evelyn was appointed a director of Banque Rothschild."
+    },
+    {
+      "id": "jacob",
+      "name": "Jacob Rothschild, 4th Baron",
+      "gen": 6,
+      "y": -150,
+      "x": 0,
+      "z": 140,
+      "role": "London Branch",
+      "notes": "(1936\u20132024) Son of Victor. Married Serena Dunn (1961). Financier and prominent figure in modern British Jewish life. Founded RIT Capital Partners. | Source: plain Jacob Rothschild became Monsieur le Baron James de Rothschild, Austrian consul general in Paris, chevalier of the Legion of Honour."
+    },
+    {
+      "id": "nathaniel_gen6",
+      "name": "Nathaniel Philip Rothschild, 5th Baron (Gen 6)",
+      "gen": 6,
+      "y": -150,
+      "x": 10,
+      "z": 150,
+      "role": "London Branch",
+      "notes": "(1971\u2013) Son of Jacob. Financier and co-founder of JNR Limited. Current head of the English branch."
+    },
+    {
+      "id": "david_rene",
+      "name": "David Ren\u00e9 de Rothschild",
+      "gen": 6,
+      "y": -150,
+      "x": 50,
+      "z": -10,
+      "role": "Paris Branch",
+      "notes": "(1942\u2013) Son of Edmond Adolphe. Chairman of Rothschild & Cie Banque, representing the contemporary French branch."
+    },
+    {
+      "id": "benjamin",
+      "name": "Benjamin de Rothschild",
+      "gen": 6,
+      "y": -150,
+      "x": 70,
+      "z": -20,
+      "role": "Geneva/Paris Branch",
+      "notes": "(1963\u20132021) Son of Edmond Adolphe. Founded the Edmond de Rothschild Group, focusing on private banking and asset management."
+    },
+    {
+      "id": "ariane",
+      "name": "Ariane de Rothschild",
+      "gen": 6,
+      "y": -150,
+      "x": 80,
+      "z": -30,
+      "role": "Geneva/Paris Branch",
+      "notes": "(1965\u2013) Daughter of Edmond Adolphe. Widow of Benjamin, now chairs the Edmond de Rothschild Group."
+    },
+    {
+      "id": "alexandre",
+      "name": "Alexandre de Rothschild",
+      "gen": 7,
+      "y": -200,
+      "x": 50,
+      "z": -20,
+      "role": "Paris Branch",
+      "notes": "(1991\u2013) Son of David Ren\u00e9. Current Chairman of Rothschild & Cie Banque, representing the newest generation of the French branch."
+    }
+  ],
+  "links": [
+    {
+      "source": "mayer_amschel",
+      "target": "amschel_mayer",
+      "type": "parent-child"
+    },
+    {
+      "source": "mayer_amschel",
+      "target": "salomon_mayer",
+      "type": "parent-child"
+    },
+    {
+      "source": "mayer_amschel",
+      "target": "nathan_mayer",
+      "type": "parent-child"
+    },
+    {
+      "source": "mayer_amschel",
+      "target": "karl_mayer",
+      "type": "parent-child"
+    },
+    {
+      "source": "mayer_amschel",
+      "target": "james_mayer",
+      "type": "parent-child"
+    },
+    {
+      "source": "salomon_mayer",
+      "target": "anselm_salomon",
+      "type": "parent-child"
+    },
+    {
+      "source": "nathan_mayer",
+      "target": "charlotte_gen3",
+      "type": "parent-child"
+    },
+    {
+      "source": "nathan_mayer",
+      "target": "lionel",
+      "type": "parent-child"
+    },
+    {
+      "source": "nathan_mayer",
+      "target": "anthony",
+      "type": "parent-child"
+    },
+    {
+      "source": "nathan_mayer",
+      "target": "nathaniel_gen3",
+      "type": "parent-child"
+    },
+    {
+      "source": "karl_mayer",
+      "target": "mayer_carl",
+      "type": "parent-child"
+    },
+    {
+      "source": "karl_mayer",
+      "target": "wilhelm_carl",
+      "type": "parent-child"
+    },
+    {
+      "source": "karl_mayer",
+      "target": "charlotte_carl",
+      "type": "parent-child"
+    },
+    {
+      "source": "james_mayer",
+      "target": "alphonse",
+      "type": "parent-child"
+    },
+    {
+      "source": "james_mayer",
+      "target": "gustave",
+      "type": "parent-child"
+    },
+    {
+      "source": "james_mayer",
+      "target": "edmond_james",
+      "type": "parent-child"
+    },
+    {
+      "source": "james_mayer",
+      "target": "charlotte_james",
+      "type": "parent-child"
+    },
+    {
+      "source": "anselm_salomon",
+      "target": "albert",
+      "type": "parent-child"
+    },
+    {
+      "source": "anselm_salomon",
+      "target": "ferdinand",
+      "type": "parent-child"
+    },
+    {
+      "source": "lionel",
+      "target": "nathaniel_gen4",
+      "type": "parent-child"
+    },
+    {
+      "source": "lionel",
+      "target": "alfred",
+      "type": "parent-child"
+    },
+    {
+      "source": "lionel",
+      "target": "leopold",
+      "type": "parent-child"
+    },
+    {
+      "source": "alphonse",
+      "target": "edouard",
+      "type": "parent-child"
+    },
+    {
+      "source": "alphonse",
+      "target": "beatrice",
+      "type": "parent-child"
+    },
+    {
+      "source": "edmond_james",
+      "target": "maurice",
+      "type": "parent-child"
+    },
+    {
+      "source": "albert",
+      "target": "louis",
+      "type": "parent-child"
+    },
+    {
+      "source": "nathaniel_gen4",
+      "target": "charles",
+      "type": "parent-child"
+    },
+    {
+      "source": "leopold",
+      "target": "edmund",
+      "type": "parent-child"
+    },
+    {
+      "source": "charles",
+      "target": "victor",
+      "type": "parent-child"
+    },
+    {
+      "source": "maurice",
+      "target": "edmond_adolphe",
+      "type": "parent-child"
+    },
+    {
+      "source": "edouard",
+      "target": "guy",
+      "type": "parent-child"
+    },
+    {
+      "source": "victor",
+      "target": "jacob",
+      "type": "parent-child"
+    },
+    {
+      "source": "jacob",
+      "target": "nathaniel_gen6",
+      "type": "parent-child"
+    },
+    {
+      "source": "edmond_adolphe",
+      "target": "david_rene",
+      "type": "parent-child"
+    },
+    {
+      "source": "edmond_adolphe",
+      "target": "benjamin",
+      "type": "parent-child"
+    },
+    {
+      "source": "edmond_adolphe",
+      "target": "ariane",
+      "type": "parent-child"
+    },
+    {
+      "source": "david_rene",
+      "target": "alexandre",
+      "type": "parent-child"
+    },
+    {
+      "source": "anselm_salomon",
+      "target": "charlotte_gen3",
+      "type": "intermarriage",
+      "label": "Married (First Cousins)",
+      "targetNote": "Anselm (Vienna) married Charlotte (London)"
+    },
+    {
+      "source": "lionel",
+      "target": "charlotte_carl",
+      "type": "intermarriage",
+      "label": "Married (First Cousins)",
+      "targetNote": "Lionel (London) married Charlotte (Naples, Carl's daughter)"
+    },
+    {
+      "source": "nathaniel_gen3",
+      "target": "charlotte_james",
+      "type": "intermarriage",
+      "label": "Married (First Cousins)",
+      "targetNote": "Nathaniel (London) married Charlotte (Paris, James's daughter)"
+    },
+    {
+      "source": "alphonse",
+      "target": "leonora_placeholder",
+      "type": "intermarriage",
+      "label": "Married (Uncle/Niece)",
+      "targetNote": "Alphonse (Paris) married Leonora (London, Lionel's daughter)"
+    },
+    {
+      "source": "mayer_carl",
+      "target": "emma_louise",
+      "type": "parent-child"
+    },
+    {
+      "source": "mayer_carl",
+      "target": "louise_placeholder",
+      "type": "intermarriage",
+      "label": "Married (First Cousins)",
+      "targetNote": "Mayer Carl (Naples) married Louise (Frankfurt, Amschel's daughter)"
+    },
+    {
+      "source": "anthony",
+      "target": "louisa_montefiore_placeholder",
+      "type": "intermarriage",
+      "label": "Strategic Alliance",
+      "targetNote": "Anthony married Louisa Montefiore (Nathan's niece)"
+    },
+    {
+      "source": "james_mayer",
+      "target": "betty_placeholder",
+      "type": "intermarriage",
+      "label": "Married (Uncle/Niece)",
+      "targetNote": "James (Paris) married Betty (Vienna, Salomon's daughter)"
+    },
+    {
+      "source": "wilhelm_carl",
+      "target": "mathilde_placeholder",
+      "type": "intermarriage",
+      "label": "Married (First Cousins)",
+      "targetNote": "Wilhelm Carl (Naples) married Mathilde (Vienna, Anselm's daughter)"
+    },
+    {
+      "source": "edmond_james",
+      "target": "adelheid_placeholder",
+      "type": "intermarriage",
+      "label": "Married (First Cousins)",
+      "targetNote": "Edmond James (Paris) married Adelheid (Naples, Mayer Carl's daughter)"
+    },
+    {
+      "source": "ferdinand",
+      "target": "evelina_placeholder",
+      "type": "intermarriage",
+      "label": "Married (First Cousins)",
+      "targetNote": "Ferdinand (Vienna/England) married Evelina (London, Lionel's daughter)"
+    },
+    {
+      "source": "nathaniel_gen4",
+      "target": "emma_louise",
+      "type": "intermarriage",
+      "label": "Married (Double First Cousins)",
+      "targetNote": "Nathan Mayer (1st Baron) married Emma Louise (Mayer Carl's daughter), sharing both sets of grandparents."
+    },
+    {
+      "source": "alan_dershowitz",
+      "target": "mossad",
+      "type": "cross-connection",
+      "note": "FBI Informant reports Dershowitz had a direct debriefing line to Mossad and was believed to be co-opted by them."
+    }
+  ],
+  "epsteinNodes": [
+    {
+      "id": "meyer_lansky",
+      "name": "Meyer Lansky",
+      "gen": 0,
+      "x": 180,
+      "y": 0,
+      "z": 0,
+      "role": "Crime Hub",
+      "epstein_type": "crime",
+      "notes": "Central hub for crime network."
+    },
+    {
+      "id": "james_angleton",
+      "name": "James Angleton",
+      "gen": 0,
+      "x": 300,
+      "y": 0,
+      "z": 0,
+      "role": "Intelligence Hub",
+      "epstein_type": "intelligence",
+      "notes": "Central hub for intelligence network."
+    },
+    {
+      "id": "leslie_wexner",
+      "name": "Leslie Wexner",
+      "gen": 0,
+      "x": 240,
+      "y": 40,
+      "z": 40,
+      "role": "Modern Hub",
+      "epstein_type": "modern",
+      "notes": "Central hub for modern network."
+    },
+    {
+      "id": "jeffrey_epstein",
+      "name": "Jeffrey Epstein",
+      "gen": 0,
+      "x": 240,
+      "y": -40,
+      "z": 40,
+      "role": "Modern Hub",
+      "epstein_type": "modern",
+      "notes": "Central hub for modern network. FBI Informant became convinced Epstein was a co-opted Mossad agent. Trained as a spy under former Israeli PM Ehud Barak. Financially backed by Leon Black ($50M)."
+    },
+    {
+      "id": "mossad",
+      "name": "Mossad",
+      "gen": 0,
+      "x": 240,
+      "y": 0,
+      "z": -60,
+      "role": "Intelligence Hub",
+      "epstein_type": "intelligence",
+      "notes": "Central hub for intelligence network."
+    },
+    {
+      "id": "moe_dalitz",
+      "name": "Moe Dalitz",
+      "gen": 0,
+      "x": 205,
+      "y": -20,
+      "z": 25,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "lucky_luciano",
+      "name": "Lucky Luciano",
+      "gen": 0,
+      "x": 150,
+      "y": -10,
+      "z": -30,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "frank_costello",
+      "name": "Frank Costello",
+      "gen": 0,
+      "x": 215,
+      "y": 0,
+      "z": -35,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "bugsy_siegel",
+      "name": "Bugsy Siegel",
+      "gen": 0,
+      "x": 155,
+      "y": 10,
+      "z": 25,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "sam_bronfman",
+      "name": "Sam Bronfman",
+      "gen": 0,
+      "x": 210,
+      "y": 20,
+      "z": -30,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "lewis_rosenstiel",
+      "name": "Lewis Rosenstiel",
+      "gen": 0,
+      "x": 145,
+      "y": -20,
+      "z": -35,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "joe_fusco",
+      "name": "Joe Fusco",
+      "gen": 0,
+      "x": 205,
+      "y": -10,
+      "z": 25,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "dino_cellini",
+      "name": "Dino Cellini",
+      "gen": 0,
+      "x": 150,
+      "y": 0,
+      "z": -30,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "louis_chesler",
+      "name": "Louis Chesler",
+      "gen": 0,
+      "x": 215,
+      "y": 10,
+      "z": -35,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "sam_giancana",
+      "name": "Sam Giancana",
+      "gen": 0,
+      "x": 155,
+      "y": 20,
+      "z": 25,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "edward_debartolo",
+      "name": "Edward DeBartolo",
+      "gen": 0,
+      "x": 210,
+      "y": -20,
+      "z": -30,
+      "role": "Crime",
+      "epstein_type": "crime",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "michael_steinhardt",
+      "name": "Michael Steinhardt",
+      "gen": 0,
+      "x": 145,
+      "y": -10,
+      "z": -35,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "tibor_rosenbaum",
+      "name": "Tibor Rosenbaum",
+      "gen": 0,
+      "x": 205,
+      "y": 0,
+      "z": 25,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "lew_wasserman",
+      "name": "Lew Wasserman",
+      "gen": 0,
+      "x": 150,
+      "y": 10,
+      "z": -30,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "maxwell_rabb",
+      "name": "Maxwell Rabb",
+      "gen": 0,
+      "x": 215,
+      "y": 20,
+      "z": -35,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "bear_stearns",
+      "name": "Bear Stearns",
+      "gen": 0,
+      "x": 155,
+      "y": -20,
+      "z": 25,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "benex",
+      "name": "Benex",
+      "gen": 0,
+      "x": 210,
+      "y": -10,
+      "z": -30,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "norex",
+      "name": "Norex",
+      "gen": 0,
+      "x": 145,
+      "y": 0,
+      "z": -35,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Meyer Lansky."
+    },
+    {
+      "id": "william_donovan",
+      "name": "William Donovan",
+      "gen": 0,
+      "x": 325,
+      "y": -20,
+      "z": 25,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "allen_dulles",
+      "name": "Allen Dulles",
+      "gen": 0,
+      "x": 270,
+      "y": -10,
+      "z": -30,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "j_edgar_hoover",
+      "name": "J Edgar Hoover",
+      "gen": 0,
+      "x": 335,
+      "y": 0,
+      "z": -35,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "kim_philby",
+      "name": "Kim Philby",
+      "gen": 0,
+      "x": 275,
+      "y": 10,
+      "z": 25,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "bill_harvey",
+      "name": "Bill Harvey",
+      "gen": 0,
+      "x": 330,
+      "y": 20,
+      "z": -30,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "richard_helms",
+      "name": "Richard Helms",
+      "gen": 0,
+      "x": 265,
+      "y": -20,
+      "z": -35,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "shef_edwards",
+      "name": "Shef Edwards",
+      "gen": 0,
+      "x": 325,
+      "y": -10,
+      "z": 25,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "sam_halpern",
+      "name": "Sam Halpern",
+      "gen": 0,
+      "x": 270,
+      "y": 0,
+      "z": -30,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "roy_cohn",
+      "name": "Roy Cohn",
+      "gen": 0,
+      "x": 335,
+      "y": 10,
+      "z": -35,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "jim_mcgreevey",
+      "name": "Jim McGreevey",
+      "gen": 0,
+      "x": 275,
+      "y": 20,
+      "z": 25,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "charles_kushner",
+      "name": "Charles Kushner",
+      "gen": 0,
+      "x": 330,
+      "y": -20,
+      "z": -30,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to James Angleton. Documented deep ties with Israel and a history of corrupt business practices. Introduced to Cui Tiankai (Chinese Ambassador to the U.S.) by Henry Kissinger. Negotiations with Anbang over 666 Fifth Avenue occurred around the same time. Closely associated with Ken Kurson, who FBI Informant says 'knows everything' about the Kushner family's Middle East relationships."
+    },
+    {
+      "id": "lewis_libby",
+      "name": "Lewis Libby",
+      "gen": 0,
+      "x": 265,
+      "y": -10,
+      "z": -35,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "mel_sembler",
+      "name": "Mel Sembler",
+      "gen": 0,
+      "x": 325,
+      "y": 0,
+      "z": 25,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to James Angleton."
+    },
+    {
+      "id": "max_fisher",
+      "name": "Max Fisher",
+      "gen": 0,
+      "x": 265,
+      "y": 20,
+      "z": 65,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "edgar_bronfman",
+      "name": "Edgar Bronfman",
+      "gen": 0,
+      "x": 210,
+      "y": 30,
+      "z": 10,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "teddy_kollek",
+      "name": "Teddy Kollek",
+      "gen": 0,
+      "x": 275,
+      "y": 40,
+      "z": 5,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "allan_tessler",
+      "name": "Allan Tessler",
+      "gen": 0,
+      "x": 215,
+      "y": 50,
+      "z": 65,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "charles_bronfman",
+      "name": "Charles Bronfman",
+      "gen": 0,
+      "x": 270,
+      "y": 60,
+      "z": 10,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "lester_crown",
+      "name": "Lester Crown",
+      "gen": 0,
+      "x": 205,
+      "y": 20,
+      "z": 5,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "mega_group",
+      "name": "Mega Group",
+      "gen": 0,
+      "x": 265,
+      "y": 30,
+      "z": 65,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "clare_bronfman",
+      "name": "Clare Bronfman",
+      "gen": 0,
+      "x": 210,
+      "y": 40,
+      "z": 10,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "nxivm",
+      "name": "NXIVM",
+      "gen": 0,
+      "x": 275,
+      "y": 50,
+      "z": 5,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Leslie Wexner."
+    },
+    {
+      "id": "ghislaine_maxwell",
+      "name": "Ghislaine Maxwell",
+      "gen": 0,
+      "x": 265,
+      "y": -60,
+      "z": 65,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "alan_greenberg",
+      "name": "Alan Greenberg",
+      "gen": 0,
+      "x": 210,
+      "y": -50,
+      "z": 10,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "steven_hoffenberg",
+      "name": "Steven Hoffenberg",
+      "gen": 0,
+      "x": 275,
+      "y": -40,
+      "z": 5,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "adnan_khashoggi",
+      "name": "Adnan Khashoggi",
+      "gen": 0,
+      "x": 215,
+      "y": -30,
+      "z": 65,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "prince_andrew",
+      "name": "Prince Andrew",
+      "gen": 0,
+      "x": 270,
+      "y": -20,
+      "z": 10,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "bill_clinton",
+      "name": "Bill Clinton",
+      "gen": 0,
+      "x": 205,
+      "y": -60,
+      "z": 5,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "donald_trump",
+      "name": "Donald Trump",
+      "gen": 0,
+      "x": 265,
+      "y": -50,
+      "z": 65,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "robert_maxwell",
+      "name": "Robert Maxwell",
+      "gen": 0,
+      "x": 210,
+      "y": -40,
+      "z": 10,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "hillary_clinton",
+      "name": "Hillary Clinton",
+      "gen": 0,
+      "x": 275,
+      "y": -30,
+      "z": 5,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "jean-luc_brunel",
+      "name": "Jean-Luc Brunel",
+      "gen": 0,
+      "x": 215,
+      "y": -20,
+      "z": 65,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "jared_kushner",
+      "name": "Jared Kushner",
+      "gen": 0,
+      "x": 270,
+      "y": -60,
+      "z": 10,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein. FBI Informant claims Kushner is the 'real brains' behind Trump's organization/Presidency and has moved significant Russian investment money. On the day Trump was elected, Jared and Ivanka were at the gravesite of Rabbi Scheersom (most powerful Rabbi in the Chabad network). Jared allegedly hid his stake in 'Cadre' due to its Russian state ties. Student of Alan Dershowitz. Received a $184M loan from Leon Black (Apollo) during the 666 Fifth Ave crisis. Allegedly ran a 'rival State Department operation' (per Rex and Renda Tillerson)."
+    },
+    {
+      "id": "alexander_acosta",
+      "name": "Alexander Acosta",
+      "gen": 0,
+      "x": 205,
+      "y": -50,
+      "z": 5,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "graydon_carter",
+      "name": "Graydon Carter",
+      "gen": 0,
+      "x": 265,
+      "y": -40,
+      "z": 65,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "vicki_ward",
+      "name": "Vicki Ward",
+      "gen": 0,
+      "x": 210,
+      "y": -30,
+      "z": 10,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "michael_jackson",
+      "name": "Michael Jackson",
+      "gen": 0,
+      "x": 275,
+      "y": -20,
+      "z": 5,
+      "role": "Modern",
+      "epstein_type": "modern",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "donald_barr",
+      "name": "Donald Barr",
+      "gen": 0,
+      "x": 215,
+      "y": -60,
+      "z": 65,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "william_barr",
+      "name": "William Barr",
+      "gen": 0,
+      "x": 270,
+      "y": -50,
+      "z": 10,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein."
+    },
+    {
+      "id": "alan_dershowitz",
+      "name": "Alan Dershowitz",
+      "gen": 0,
+      "x": 205,
+      "y": -40,
+      "z": 5,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Jeffrey Epstein. Harvard Law Professor who claimed that if he were young again, he would be 'holding a stun gun as an Israeli Intelligence (Mossad) agent.' FBI Informant believes he was co-opted by Mossad. Taught both Jared Kushner and Josh Kushner. Represented Jeffrey Epstein. Direct debriefing line to Mossad after phone calls with Epstein. Told U.S. Attorney Alex Acosta that Epstein belonged to both U.S. and allied intelligence services."
+    },
+    {
+      "id": "marc_rich",
+      "name": "Marc Rich",
+      "gen": 0,
+      "x": 265,
+      "y": -20,
+      "z": -35,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "exchange_bank",
+      "name": "Exchange Bank",
+      "gen": 0,
+      "x": 210,
+      "y": -10,
+      "z": -90,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "ios_fund",
+      "name": "IOS Fund",
+      "gen": 0,
+      "x": 275,
+      "y": 0,
+      "z": -95,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "miami_national",
+      "name": "Miami National",
+      "gen": 0,
+      "x": 215,
+      "y": 10,
+      "z": -35,
+      "role": "Financial",
+      "epstein_type": "financial",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "promis",
+      "name": "PROMIS",
+      "gen": 0,
+      "x": 270,
+      "y": 20,
+      "z": -90,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "nso_group",
+      "name": "NSO Group",
+      "gen": 0,
+      "x": 205,
+      "y": -20,
+      "z": -95,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "pincus_green",
+      "name": "Pincus Green",
+      "gen": 0,
+      "x": 265,
+      "y": -10,
+      "z": -35,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "golan_cipel",
+      "name": "Golan Cipel",
+      "gen": 0,
+      "x": 210,
+      "y": 0,
+      "z": -90,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "jonathan_pollard",
+      "name": "Jonathan Pollard",
+      "gen": 0,
+      "x": 275,
+      "y": 10,
+      "z": -95,
+      "role": "Intelligence",
+      "epstein_type": "intelligence",
+      "notes": "Connected to Mossad."
+    },
+    {
+      "id": "benjamin_netanyahu",
+      "name": "Benjamin Netanyahu",
+      "gen": 0,
+      "x": 215,
+      "y": 20,
+      "z": -35,
+      "role": "Political",
+      "epstein_type": "political",
+      "notes": "Connected to Mossad."
+    }
+  ],
+  "epsteinLinks": [
+    {
+      "source": "meyer_lansky",
+      "target": "moe_dalitz",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "lucky_luciano",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "frank_costello",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "bugsy_siegel",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "sam_bronfman",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "lewis_rosenstiel",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "joe_fusco",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "dino_cellini",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "louis_chesler",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "sam_giancana",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "edward_debartolo",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "michael_steinhardt",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "tibor_rosenbaum",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "lew_wasserman",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "maxwell_rabb",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "bear_stearns",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "benex",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "norex",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "william_donovan",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "allen_dulles",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "j_edgar_hoover",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "kim_philby",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "bill_harvey",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "richard_helms",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "shef_edwards",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "sam_halpern",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "roy_cohn",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "jim_mcgreevey",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "charles_kushner",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "lewis_libby",
+      "type": "connection"
+    },
+    {
+      "source": "james_angleton",
+      "target": "mel_sembler",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "max_fisher",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "edgar_bronfman",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "teddy_kollek",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "allan_tessler",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "charles_bronfman",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "lester_crown",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "mega_group",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "clare_bronfman",
+      "type": "connection"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "nxivm",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "ghislaine_maxwell",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "alan_greenberg",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "steven_hoffenberg",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "adnan_khashoggi",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "prince_andrew",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "bill_clinton",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "donald_trump",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "robert_maxwell",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "hillary_clinton",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "jean-luc_brunel",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "jared_kushner",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "alexander_acosta",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "graydon_carter",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "vicki_ward",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "michael_jackson",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "donald_barr",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "william_barr",
+      "type": "connection"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "alan_dershowitz",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "marc_rich",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "exchange_bank",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "ios_fund",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "miami_national",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "promis",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "nso_group",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "pincus_green",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "golan_cipel",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "jonathan_pollard",
+      "type": "connection"
+    },
+    {
+      "source": "mossad",
+      "target": "benjamin_netanyahu",
+      "type": "connection"
+    },
+    {
+      "source": "meyer_lansky",
+      "target": "james_angleton",
+      "type": "special"
+    },
+    {
+      "source": "james_angleton",
+      "target": "mossad",
+      "type": "special"
+    },
+    {
+      "source": "leslie_wexner",
+      "target": "jeffrey_epstein",
+      "type": "special"
+    },
+    {
+      "source": "jeffrey_epstein",
+      "target": "mossad",
+      "type": "special"
+    },
+    {
+      "source": "benjamin_netanyahu",
+      "target": "charles_kushner",
+      "type": "cross-connection",
+      "note": "Netanyahu and Charles Kushner are close friends (therefore so is Jared)"
+    },
+    {
+      "source": "ariane",
+      "target": "jeffrey_epstein",
+      "type": "cross-connection",
+      "note": "Epstein admitted in an email he represents the Rothschilds"
+    },
+    {
+      "source": "nathaniel_gen6",
+      "target": "jared_kushner",
+      "type": "cross-connection",
+      "note": "Very close friends, Albanian Sazan Island project co-sponsors"
+    },
+    {
+      "source": "mossad",
+      "target": "mayer_amschel",
+      "type": "cross-connection",
+      "note": "Historical and modern intelligence/financial network overlaps"
+    },
+    {
+      "source": "mossad",
+      "target": "james_mayer",
+      "type": "cross-connection",
+      "note": "French branch historical intelligence and financial overlaps"
+    },
+    {
+      "source": "mossad",
+      "target": "edmond_james",
+      "type": "cross-connection",
+      "note": "Edmond James de Rothschild provided significant funding to help establish the Mossad LeAliyah Bet"
+    }
+  ],
+  "headshotImages": {
+    "mayer_amschel": "mayer_amschel_rothschild.jpg",
+    "amschel_mayer": "amschel_mayer.jpg",
+    "salomon_mayer": "salomon_mayer_von_rothschild.jpg",
+    "nathan_mayer": "nathan_mayer_rothschild.jpg",
+    "karl_mayer": "carl_mayer_von_rothschild.jpg",
+    "james_mayer": "james_mayer_de_rothschild.jpg",
+    "anselm_salomon": "anselm_salomon.jpg",
+    "charlotte_gen3": "charlotte_von_rothschild.jpg",
+    "lionel": "lionel_de_rothschild.jpg",
+    "anthony": "anthony.jpg",
+    "nathaniel_gen3": "nathaniel_de_rothschild.jpg",
+    "mayer_carl": "mayer_carl_von_rothschild.jpg",
+    "wilhelm_carl": "wilhelm_carl_von_rothschild.jpg",
+    "alphonse": "alphonse_james_de_rothschild.jpg",
+    "gustave": "gustave_de_rothschild.jpg",
+    "edmond_james": "edmond_james_de_rothschild.jpg",
+    "albert": "albert_salomon_anselm_von_rothschild.jpg",
+    "ferdinand": "ferdinand_de_rothschild.jpg",
+    "nathaniel_gen4": "nathaniel_gen4.jpg",
+    "alfred": "alfred_de_rothschild.jpg",
+    "leopold": "leopold_de_rothschild.jpg",
+    "edouard": "\u00e9douard_alphonse_james_de_rothschild.jpg",
+    "beatrice": "b\u00e9atrice_ephrussi_de_rothschild.jpg",
+    "maurice": "maurice_de_rothschild.jpg",
+    "louis": "louis.jpg",
+    "charles": "charles.jpg",
+    "edmund": "Edmund_Leopold.jpg",
+    "victor": "victor.jpg",
+    "edmond_adolphe": "edmond_adolphe_de_rothschild.jpg",
+    "guy": "guy_de_rothschild.jpg",
+    "jacob": "jacob_rothschild_4th_baron_rothschild.jpg",
+    "nathaniel_gen6": "nathaniel_rothschild_5th_baron_rothschild.jpg",
+    "david_rene": "david_rene_de_rothschild.jpg",
+    "benjamin": "Benjamin.jpg",
+    "ariane": "ariane_de_rothschild.jpg",
+    "alexandre": "Alexandre.jpg",
+    "meyer_lansky": "images/meyer-lansky.jpg",
+    "Meyer Lansky": "images/meyer-lansky.jpg",
+    "james_angleton": "images/james-angleton.jpg",
+    "James Angleton": "images/james-angleton.jpg",
+    "leslie_wexner": "images/leslie-wexner.jpg",
+    "Leslie Wexner": "images/leslie-wexner.jpg",
+    "jeffrey_epstein": "images/jeffrey-epstein.jpg",
+    "Jeffrey Epstein": "images/jeffrey-epstein.jpg",
+    "mossad": "images/mossad-seal.png",
+    "Mossad": "images/mossad-seal.png",
+    "moe_dalitz": "images/moe-dalitz.jpg",
+    "Moe Dalitz": "images/moe-dalitz.jpg",
+    "lucky_luciano": "images/lucky-luciano.jpg",
+    "Lucky Luciano": "images/lucky-luciano.jpg",
+    "frank_costello": "images/frank-costello.jpg",
+    "Frank Costello": "images/frank-costello.jpg",
+    "bugsy_siegel": "images/bugsy-siegel.jpg",
+    "Bugsy Siegel": "images/bugsy-siegel.jpg",
+    "sam_bronfman": "images/sam-bronfman.jpg",
+    "Sam Bronfman": "images/sam-bronfman.jpg",
+    "lewis_rosenstiel": "https://images.findagrave.com/photos/2010/267/58982825_128471820829.jpg",
+    "Lewis Rosenstiel": "https://images.findagrave.com/photos/2010/267/58982825_128471820829.jpg",
+    "sam_giancana": "images/sam-giancana.jpg",
+    "Sam Giancana": "images/sam-giancana.jpg",
+    "michael_steinhardt": "images/michael-steinhardt.jpg",
+    "Michael Steinhardt": "images/michael-steinhardt.jpg",
+    "tibor_rosenbaum": "https://www.jewishvirtuallibrary.org/jsource/biography/images/Rosenbaum.jpg",
+    "Tibor Rosenbaum": "https://www.jewishvirtuallibrary.org/jsource/biography/images/Rosenbaum.jpg",
+    "william_donovan": "images/william-donovan.jpg",
+    "William Donovan": "images/william-donovan.jpg",
+    "allen_dulles": "images/allen-dulles.jpg",
+    "Allen Dulles": "images/allen-dulles.jpg",
+    "j_edgar_hoover": "images/j-edgar-hoover.jpg",
+    "J Edgar Hoover": "images/j-edgar-hoover.jpg",
+    "kim_philby": "images/kim-philby.jpg",
+    "Kim Philby": "images/kim-philby.jpg",
+    "bill_harvey": "images/bill-harvey.jpg",
+    "Bill Harvey": "images/bill-harvey.jpg",
+    "richard_helms": "images/richard-helms.jpg",
+    "Richard Helms": "images/richard-helms.jpg",
+    "roy_cohn": "images/roy-cohn.jpg",
+    "Roy Cohn": "images/roy-cohn.jpg",
+    "max_fisher": "images/max-fisher.jpg",
+    "Max Fisher": "images/max-fisher.jpg",
+    "edgar_bronfman": "images/edgar-bronfman.jpg",
+    "Edgar Bronfman": "images/edgar-bronfman.jpg",
+    "teddy_kollek": "images/teddy-kollek.jpg",
+    "Teddy Kollek": "images/teddy-kollek.jpg",
+    "charles_bronfman": "images/charles-bronfman.jpg",
+    "Charles Bronfman": "images/charles-bronfman.jpg",
+    "lester_crown": "https://www.aspeninstitute.org/wp-content/uploads/2016/12/Lester-Crown-headshot.jpg",
+    "Lester Crown": "https://www.aspeninstitute.org/wp-content/uploads/2016/12/Lester-Crown-headshot.jpg",
+    "ghislaine_maxwell": "images/ghislaine-maxwell.jpg",
+    "Ghislaine Maxwell": "images/ghislaine-maxwell.jpg",
+    "alan_greenberg": "images/alan-greenberg.jpg",
+    "Alan Greenberg": "images/alan-greenberg.jpg",
+    "steven_hoffenberg": "https://www.timesofisrael.com/wp-content/uploads/2022/08/AP22235715913353-e1661256866271-640x400.jpg",
+    "Steven Hoffenberg": "https://www.timesofisrael.com/wp-content/uploads/2022/08/AP22235715913353-e1661256866271-640x400.jpg",
+    "adnan_khashoggi": "images/adnan-khashoggi.jpg",
+    "Adnan Khashoggi": "images/adnan-khashoggi.jpg",
+    "prince_andrew": "images/prince-andrew.jpg",
+    "Prince Andrew": "images/prince-andrew.jpg",
+    "bill_clinton": "images/bill-clinton.jpg",
+    "Bill Clinton": "images/bill-clinton.jpg",
+    "donald_trump": "images/donald-trump.jpg",
+    "Donald Trump": "images/donald-trump.jpg",
+    "robert_maxwell": "images/robert-maxwell.jpg",
+    "Robert Maxwell": "images/robert-maxwell.jpg",
+    "marc_rich": "images/marc-rich.jpg",
+    "Marc Rich": "images/marc-rich.jpg",
+    "edward_debartolo": "https://www.profootballhof.com/assets/1/19/DeBartolo_Edward_Jr_2016.jpg",
+    "Edward DeBartolo": "https://www.profootballhof.com/assets/1/19/DeBartolo_Edward_Jr_2016.jpg",
+    "shef_edwards": "https://spartacus-educational.com/JFKedwardsS.jpg",
+    "Shef Edwards": "https://spartacus-educational.com/JFKedwardsS.jpg",
+    "sam_halpern": "https://spartacus-educational.com/JFKhalpern.jpg",
+    "Sam Halpern": "https://spartacus-educational.com/JFKhalpern.jpg",
+    "joe_fusco": "https://www.chicagomafiahistory.com/images/fusco.jpg",
+    "Joe Fusco": "https://www.chicagomafiahistory.com/images/fusco.jpg",
+    "dino_cellini": "https://mafia.wikia.org/wiki/Dino_Cellini",
+    "Dino Cellini": "https://mafia.wikia.org/wiki/Dino_Cellini",
+    "louis_chesler": "https://spartacus-educational.com/JFKchesler.jpg",
+    "Louis Chesler": "https://spartacus-educational.com/JFKchesler.jpg",
+    "lew_wasserman": "images/lew-wasserman.jpg",
+    "Lew Wasserman": "images/lew-wasserman.jpg",
+    "maxwell_rabb": "https://www.jewishvirtuallibrary.org/jsource/biography/images/Rabb.jpg",
+    "Maxwell Rabb": "https://www.jewishvirtuallibrary.org/jsource/biography/images/Rabb.jpg",
+    "allan_tessler": "https://www.legacy.com/obituaries/name/allan-tessler-obituary",
+    "Allan Tessler": "https://www.legacy.com/obituaries/name/allan-tessler-obituary",
+    "exchange_bank": "images/bank-icon.svg",
+    "Exchange Bank": "images/bank-icon.svg",
+    "ios_fund": "images/investment-icon.svg",
+    "IOS Fund": "images/investment-icon.svg",
+    "miami_national": "images/bank-icon.svg",
+    "Miami National": "images/bank-icon.svg",
+    "mega_group": "images/star-of-david.svg",
+    "Mega Group": "images/star-of-david.svg",
+    "hillary_clinton": "images/hillary-clinton.jpg",
+    "Hillary Clinton": "images/hillary-clinton.jpg",
+    "clare_bronfman": "images/clare-bronfman.jpg",
+    "Clare Bronfman": "images/clare-bronfman.jpg",
+    "jean-luc_brunel": "images/jean-luc-brunel.jpg",
+    "Jean-Luc Brunel": "images/jean-luc-brunel.jpg",
+    "jared_kushner": "images/jared-kushner.jpg",
+    "Jared Kushner": "images/jared-kushner.jpg",
+    "charles_kushner": "images/charles-kushner.jpg",
+    "Charles Kushner": "images/charles-kushner.jpg",
+    "pincus_green": "images/pincus-green.jpg",
+    "Pincus Green": "images/pincus-green.jpg",
+    "bear_stearns": "images/bank-icon.svg",
+    "Bear Stearns": "images/bank-icon.svg",
+    "benex": "images/bank-icon.svg",
+    "Benex": "images/bank-icon.svg",
+    "norex": "images/bank-icon.svg",
+    "Norex": "images/bank-icon.svg",
+    "jim_mcgreevey": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Jim_McGreevey.jpg/440px-Jim_McGreevey.jpg",
+    "Jim McGreevey": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Jim_McGreevey.jpg/440px-Jim_McGreevey.jpg",
+    "golan_cipel": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Golan_Cipel.jpg/440px-Golan_Cipel.jpg",
+    "Golan Cipel": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Golan_Cipel.jpg/440px-Golan_Cipel.jpg",
+    "alexander_acosta": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Alexander_Acosta_official_photo.jpg/440px-Alexander_Acosta_official_photo.jpg",
+    "Alexander Acosta": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Alexander_Acosta_official_photo.jpg/440px-Alexander_Acosta_official_photo.jpg",
+    "graydon_carter": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Graydon_Carter.jpg/440px-Graydon_Carter.jpg",
+    "Graydon Carter": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Graydon_Carter.jpg/440px-Graydon_Carter.jpg",
+    "vicki_ward": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Vicki_Ward.jpg/440px-Vicki_Ward.jpg",
+    "Vicki Ward": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Vicki_Ward.jpg/440px-Vicki_Ward.jpg",
+    "mel_sembler": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mel_Sembler.jpg/440px-Mel_Sembler.jpg",
+    "Mel Sembler": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mel_Sembler.jpg/440px-Mel_Sembler.jpg",
+    "lewis_libby": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lewis_Libby.jpg/440px-Lewis_Libby.jpg",
+    "Lewis Libby": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Lewis_Libby.jpg/440px-Lewis_Libby.jpg",
+    "nso_group": "images/star-of-david.svg",
+    "NSO Group": "images/star-of-david.svg",
+    "promis": "images/investment-icon.svg",
+    "PROMIS": "images/investment-icon.svg",
+    "nxivm": "images/investment-icon.svg",
+    "NXIVM": "images/investment-icon.svg",
+    "michael_jackson": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Michael_Jackson_in_1988.jpg/440px-Michael_Jackson_in_1988.jpg",
+    "Michael Jackson": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Michael_Jackson_in_1988.jpg/440px-Michael_Jackson_in_1988.jpg",
+    "donald_barr": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Donald_Barr.jpg/440px-Donald_Barr.jpg",
+    "Donald Barr": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Donald_Barr.jpg/440px-Donald_Barr.jpg",
+    "william_barr": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/William_Barr_official_photo.jpg/440px-William_Barr_official_photo.jpg",
+    "William Barr": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/William_Barr_official_photo.jpg/440px-William_Barr_official_photo.jpg",
+    "alan_dershowitz": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Alan_Dershowitz_2019.jpg/440px-Alan_Dershowitz_2019.jpg",
+    "Alan Dershowitz": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Alan_Dershowitz_2019.jpg/440px-Alan_Dershowitz_2019.jpg",
+    "jonathan_pollard": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jonathan_Pollard.jpg/440px-Jonathan_Pollard.jpg",
+    "Jonathan Pollard": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jonathan_Pollard.jpg/440px-Jonathan_Pollard.jpg"
+  }
+}
