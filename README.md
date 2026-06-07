@@ -1,57 +1,69 @@
-# Combined Rothschild & Epstein 3D Network Map
+# Combined Rothschild & Epstein Network Map
 
-This repository contains a merged 3D visualization of two distinct but interconnected networks:
-1. **The House of Rothschild** (Generations 1-7, genealogical and financial network)
-2. **The Epstein Network** (Intelligence, financial, political, and criminal hubs)
+An interactive, side-by-side 3D network visualization combining the historical Rothschild genealogy with the modern Epstein-associated network. This project merges two distinct datasets into a single, cohesive, and highly interactive web-based map.
 
-Both entities remain structurally unchanged and are rendered side-by-side in a single Three.js scene, with specific cross-connections highlighting documented or alleged overlaps.
+## 🌟 Features
 
-## Viewing the Map
+- **Dual Network Visualization**: Rothschild genealogy (Generations 1-6) and the Epstein-associated network are rendered side-by-side with distinct, color-coded schemas.
+- **Cross-Network Connections**: Magenta links highlight documented historical and modern overlaps, intelligence ties, and financial relationships between the two networks.
+- **Externalized Data**: All node, link, and image mapping data is cleanly separated into `data.json`, making updates and maintenance straightforward without touching the rendering logic.
+- **Interactive Details Panel**: Click any node to reveal detailed notes, historical context, and associated headshot images (supporting both local assets and external URLs).
+- **Custom Branding**: Includes a custom gold-gradient "R & E" favicon and updated page metadata.
 
-Open `index.html` in a modern web browser. 
-- **Left side (X ≈ 0)**: Rothschild family tree and financial network.
-- **Right side (X ≈ 300)**: Epstein network hubs (Meyer Lansky, James Angleton, Leslie Wexner, Jeffrey Epstein, Mossad) and their associated clusters.
+## 🚀 Getting Started
 
-### Controls
-- **Left Click + Drag**: Rotate the 3D view.
-- **Right Click + Drag**: Pan the view.
-- **Scroll**: Zoom in/out.
-- **Click on a Node**: View detailed notes and historical context in the bottom panel.
-- **Double Click**: Auto-focus the camera on the selected node.
+Due to browser CORS restrictions on local `file://` protocols, this map must be served via a local HTTP server to load the external `data.json` file correctly.
 
-## Cross-Connections (Magenta Lines)
+### Prerequisites
+- Python 3.x (for the local server)
+- A modern web browser
 
-The following links bridge the two networks, rendered in magenta to distinguish them from internal family/intelligence connections:
+### Running the Map
+1. Clone or navigate to this repository:
+   ```bash
+   cd combined-map
+   ```
+2. Start a local HTTP server:
+   ```bash
+   python3 -m http.server 8080
+   ```
+3. Open your browser and navigate to:
+   ```
+   http://localhost:8080
+   ```
 
-1. **Ariane de Rothschild ↔ Jeffrey Epstein**  
-   *Note*: Epstein admitted in an email that he represents the Rothschilds.
+## 📂 Project Structure
 
-2. **Nathaniel Philip Rothschild, 5th Baron (Gen 6) ↔ Jared Kushner**  
-   *Note*: Documented as very close friends and co-sponsors of the Albanian Sazan Island project.
+```text
+combined-map/
+├── index.html          # Main visualization logic and UI layout
+├── data.json           # Centralized data: nodes, links, epsteinNodes, epsteinLinks, headshotImages
+├── favicon.ico         # Custom "R & E" gold gradient favicon
+├── favicon.svg         # Source SVG for the favicon
+├── images/             # Local headshot images for both networks
+├── resources/          # Additional media assets (e.g., reference maps)
+└── README.md           # This file
+```
 
-3. **Mossad ↔ Mayer Amschel Rothschild (Founder)**  
-   *Note*: Represents the historical and modern intelligence/financial network overlaps originating from the dynasty's foundation.
+## 🗄️ Data Structure (`data.json`)
 
-4. **Mossad ↔ James Mayer de Rothschild (French Branch)**  
-   *Note*: Highlights the French branch's historical intelligence and financial overlaps.
+The `data.json` file contains five main arrays/objects:
+- `nodes`: Rothschild family members (identified by `gen > 0`).
+- `links`: Connections between Rothschild nodes.
+- `epsteinNodes`: Modern network figures (identified by `gen === 0` and an `epstein_type` property: `crime`, `intelligence`, `financial`, `modern`, `political`).
+- `epsteinLinks`: Connections within the modern network.
+- `headshotImages`: A dictionary mapping node names/IDs to their respective image paths (supports both local `images/` paths and external `http(s)://` URLs).
 
-## Visual Legend
+## 🛠️ Customization
 
-- **Colored Spheres (Rothschild)**: Represent generations (Gen 1-5+), color-coded by generation.
-- **Green Spheres (Epstein)**: Represent Epstein network hubs and secondary nodes.
-- **Gray Lines**: Standard parent-child or organizational connections.
-- **Red Lines**: Intermarriages (Rothschild network).
-- **Yellow Lines**: Special internal Epstein network connections (e.g., between major hubs).
-- **Magenta Lines**: Cross-connections between the Rothschild and Epstein networks.
+- **Adding New Connections**: Edit `data.json` and append to the `links` or `epsteinLinks` arrays. Use `"type": "cross-connection"` for magenta inter-network links.
+- **Updating Node Details**: Modify the `notes` property of any node in `data.json`. Changes will reflect immediately in the UI details panel upon refresh.
+- **Styling**: All CSS is embedded in `index.html` under the `<style>` tag for easy tweaking of colors, spacing, and panel layouts.
 
-## Data Sources & Structure
+## ⚠️ Disclaimer
 
-- **Rothschild Data**: Sourced from genealogical records, historical financial documents, and established biographical sources.
-- **Epstein Data**: Sourced from investigative journalism, court documents, flight logs, and declassified intelligence records.
-- **Architecture**: Both datasets are normalized into a unified `nodes` and `links` format, allowing the Three.js renderer to process them in a single pass while maintaining their distinct spatial clustering.
+This visualization is a research and educational tool. Connections and notes are derived from publicly available documents, historical records, and reported investigations (including declassified FBI/CHS reporting). It is intended for informational and analytical purposes only.
 
-## Modifications from Original Repos
+## 📜 License
 
-- Original repositories (`rothschild-map` and `epstein-map`) remain untouched.
-- Epstein node coordinates have been offset by `X + 300` to prevent visual overlap.
-- Camera defaults to a centered position `(150, 50, 350)` to frame both networks simultaneously.
+This project is provided as-is for educational and research purposes. Ensure compliance with local laws regarding the use and distribution of publicly sourced intelligence and historical data.
