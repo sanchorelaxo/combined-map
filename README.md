@@ -2,6 +2,8 @@
 
 An interactive, side-by-side 3D network visualization combining the historical Rothschild genealogy with the modern Epstein-associated network. This project merges two distinct datasets into a single, cohesive, and highly interactive web-based map.
 
+![Combined Network Map Screenshot](canvas-screenshot.png)
+
 ## 🌟 Features
 
 - **Dual Network Visualization**: Rothschild genealogy (Generations 1-6) and the Epstein-associated network are rendered side-by-side with distinct, color-coded schemas.
